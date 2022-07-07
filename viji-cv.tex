@@ -1,0 +1,152 @@
+%------------------------
+% Vijitha's CV
+% Author : Vijitha V Nair
+% Github : https://vijimalu.github.io/curriculum-vitae
+% License : GPL
+%------------------------
+
+\documentclass[a4paper,20pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[pdftex]{hyperref}
+\usepackage{fancyhdr}
+\usepackage{verbatim} 
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+%---------------
+\addtolength{\oddsidemargin}{-0.530in}
+\addtolength{\evensidemargin}{-0.375in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.45in}
+\addtolength{\textheight}{1in}
+
+\urlstyle{rm}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+%--------------------
+\titleformat{\section}{
+	\vspace{-10pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-6pt}]
+
+% Custom commands
+%----------------
+\newcommand{\resumeItem}[2]{
+	\item\small{
+		\textbf{#1}{: #2 \vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeItemWithoutTitle}[1]{
+	\item\small{
+		{\vspace{-2pt}}
+	}
+}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-1pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{#1} & #2 \\
+	\textit{#3} & \textit{#4} \\
+	\end{tabular*}\vspace{-5pt}
+}
+
+\newcommand{\resumeSubItem}[2]{\resumeItem{#1}{#2}\vspace{-3pt}}
+
+\renewcommand{\labelitemii}{$\circ$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=*]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+%-----------------------------
+%%%%%%  CV STARTS HERE  %%%%%%
+
+\begin{document}
+
+%----------HEADING-----------------
+\begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+	\textbf{{\LARGE Vijitha V Nair}} & Email: \href{mailto:}{vijithaprabha321@gmail.com}\\
+	\href{https://linkedin.com/in/vijitha-v-nair-18a3811a1}{LinkedIn: Vijitha V Nair} & Mobile:~~~+91-9656633564 \\
+	 \href{https://github.com/vijimalu}{Github: ~~github.com/vijimalu} \\
+\end{tabular*}
+
+%-----------Experience-----------------
+\section{Experience}
+	\resumeSubHeadingListStart
+		\resumeSubheading
+			{Tata Consultancy Services - Assistant System Engineer (Full Time)}{Hybrid}
+			{RPA Developer}{Febl 2021 - Present}
+			\resumeItemListStart
+				\resumeItem
+					{Development}
+					{Developed and managed RPA solutions using the tool Automation Anywhere .}
+                                           \resumeItem
+                                                     {Support}
+                                                     {Monitored and maintaining automation post-implementation and resolving any potential issues to ensure smooth business operations. }
+			\resumeItemListEnd	
+		\vspace{+5pt}
+		\resumeSubheading
+			{Internship}{Hybdrid}
+			{Tata Consultancy Services}{Jun 2020 -  Jul 2021}
+			\resumeItemListStart
+				\resumeItem
+					{Programming}
+					{Developed mobile applications in Android Studio.Used MySQL as backend for the applications.}
+				
+		\resumeItemListEnd
+	\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------------
+\vspace{-5pt}
+\section{Education}
+	\resumeSubHeadingListStart
+		\resumeSubheading
+			{College of Engineering Trivandrum}{Thiruvananthapuram, India}
+			{Post Graduation - Masters  in Computer Applications}{August 2018 - April 2020}
+		\resumeSubheading
+			{Govt  College kariavattom}{Thiruvananthapuram, India}
+			{Graduation - Bachelor in Computer Science}{June 2015 - May 2018}
+		\resumeSubheading
+			{SSVHSS Chirayinkil}{Thiruvananthapuram, India}
+			{Higher Secondary  - Computer Science}{Junel 2013 - March 2015}
+	\resumeSubHeadingListEnd
+
+%-----------Skills Summary-----------------
+\vspace{-5pt}
+\section{Skills Summary}
+	\resumeSubHeadingListStart
+		\resumeSubItem{Languages}{~~~~~~Java,MySQL}
+		\resumeSubItem{Tools}{~~~~~~~~~~~~~~Eclipse , IntelliJ , MySQL WorkBench,Automation Anywhere}
+		
+	\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------------
+\vspace{-5pt}
+\section{Projects}
+	\resumeSubHeadingListStart
+		\resumeSubItem{Health Monitoring System}{Health Monitoring System is the ultimate solution for monitoring the health parameters such as heart rate,body temperature etc and showing the results to the user through an android based mobile application.The hardware components like temperature sensor and heart rate sensor  are used to get the values from the user and displayed through the application.Medicinal reminders,showing health history etc are the other features of the application.}
+		
+		\vspace{2pt}
+		\resumeSubItem{IOT Water Level Indicator}{The IOT Water Level Indicator is automated pump control for filling tank based on water level, run garden sprinkler system based on garden moisture level and run farm sprinkler system based on specific time.The whole system can be controlled using a mobile application which is capable of starting and stoping the water pump as well as the sprinklers mannually and shows the watwr level and status of the sprinkler system.  This project was developed for the MCA department of our college.}
+		
+	\resumeSubHeadingListEnd
+
+\end{document}
